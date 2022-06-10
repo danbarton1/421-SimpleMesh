@@ -1,0 +1,18 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/d/University/421/microbit-v2-samples/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' /mnt/d/University/421/microbit-v2-samples"
+codal-microbit-v2 is already installed
+[1;35mSet target: codal-microbit-v2 [m
+[1;35mUsing target.json (dev version) [m
+[1;34mTargeting codal-microbit-v2[m
+[1;31mSupressing -Wexpansion-to-defined.[m
+-- Adding library path: (/mnt/d/University/421/microbit-v2-samples/libraries)
+Installing dependencies...
+codal-core is already installed
+codal-nrf52 is already installed
+codal-microbit-nrf5sdk is already installed
+[1;32mUsing library: codal-microbit-v2[m
+[1;32mUsing library: codal-core[m
+[1;32mUsing library: codal-nrf52[m
+[1;32mUsing library: codal-microbit-nrf5sdk[m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/University/421/microbit-v2-samples/cmake-build-debug

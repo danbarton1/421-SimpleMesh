@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="codal"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\utils\cmake\;CMake Files\utils\cmake\toolchains\;CMake Files\utils\cmake\toolchains\ARM_GCC\;CMake Files\utils\cmake\buildtools\;CMake Files\build\;CMake Files\libraries\;CMake Files\libraries\codal-microbit-v2\;CMake Files\libraries\codal-core\;CMake Files\libraries\codal-nrf52\;CMake Files\libraries\codal-microbit-nrf5sdk\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MICROBIT">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/MICROBIT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/source/samples"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/bluetooth"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/compat"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/sdk_config"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 MICROBIT"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MICROBIT/fast">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/MICROBIT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/source/samples"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/bluetooth"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/compat"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/sdk_config"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 MICROBIT/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MICROBIT_bin">
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 MICROBIT_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MICROBIT_hex">
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 MICROBIT_hex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-microbit-v2">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-microbit-v2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/bluetooth"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/compat"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/sdk_config"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 codal-microbit-v2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-microbit-v2/fast">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-microbit-v2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/bluetooth"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/inc/compat"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/sdk_config"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 codal-microbit-v2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-v2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-core">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 codal-core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-core/fast">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 codal-core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-nrf52">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-nrf52.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 codal-nrf52"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-nrf52/fast">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-nrf52.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 codal-nrf52/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-microbit-nrf5sdk">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-microbit-nrf5sdk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/sdk_config"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 codal-microbit-nrf5sdk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-microbit-nrf5sdk/fast">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-microbit-nrf5sdk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/../codal-nrf52/nrfx/hal"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/sdk_config"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/pwr_mgmt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/timer"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/mutex"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/delay"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/s113/headers/nrf52"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/svc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 codal-microbit-nrf5sdk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-microbit-nrf5sdk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalCompat.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalComponent.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalDevice.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalDmesg.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalFiber.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalHeapAllocator.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalListener.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/CodalUtil.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/MemberFunctionCallback.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/core/codal_default_target_hal.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/AbstractButton.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Accelerometer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/CodalUSB.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Compass.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Display.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Gyroscope.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/I2C.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/SPI.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Sensor.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Serial.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/driver-models/Timer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/AnalogSensor.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/AnimatedDisplay.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/AsciiKeyMap.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/Button.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/FXOS8700.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/GhostFAT.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/HID.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/HIDJoystick.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/HIDKeyboard.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/HIDMouse.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/ILI9341.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/KeyValueStorage.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/LEDMatrix.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/LIS3DH.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/LSM303Accelerometer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/LSM303Magnetometer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/LinearAnalogSensor.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/MAG3110.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/MMA8653.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/MPU6050.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/MessageBus.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/MultiButton.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/NonLinearAnalogSensor.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/PearsonHash.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/PulseIn.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/ST7735.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/ScreenIO.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/StandardSPIFlash.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/TouchButton.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/TouchSensor.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/drivers/USBMSC.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/DataStream.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/FIFOStream.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/LevelDetector.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/LevelDetectorSPL.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/MemorySource.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/Mixer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/StreamFilter.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/StreamFlowTrigger.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/StreamNormalizer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/StreamRecording.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/StreamSplitter.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/streams/Synthesizer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/BitmapFont.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/CoordinateSystem.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/Event.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/Image.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/ManagedBuffer.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/ManagedString.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/Matrix4.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/RefCounted.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/source/types/RefCountedInit.cpp">
+			<Option target="codal-core"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu/ble_dfu.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu/ble_dfu.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis/ble_dis.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/ble_services/ble_dis/ble_dis.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_advdata.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_advdata.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_conn_params.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_conn_params.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_conn_state.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_conn_state.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_srv_common.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/common/ble_srv_common.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt/nrf_ble_gatt.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/nrf_ble_gatt/nrf_ble_gatt.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/gatt_cache_manager.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/gatt_cache_manager.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/gatts_cache_manager.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/gatts_cache_manager.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/id_manager.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/id_manager.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_data_storage.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_data_storage.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_database.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_database.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_id.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_id.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_manager.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_manager.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_manager_handler.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/peer_manager_handler.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/pm_buffer.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/pm_buffer.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/security_dispatcher.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/security_dispatcher.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/security_manager.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/ble/peer_manager/security_manager.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic/nrf_atomic.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic/nrf_atomic.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo/nrf_atfifo.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_fifo/nrf_atfifo.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags/nrf_atflags.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/atomic_flags/nrf_atflags.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc/nrf_balloc.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/balloc/nrf_balloc.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/bootloader/dfu/nrf_dfu_svci.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32/crc32.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/crc32/crc32.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars/nrf_section_iter.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/experimental_section_vars/nrf_section_iter.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds/fds.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fds/fds.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage/nrf_fstorage.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage/nrf_fstorage.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage/nrf_fstorage_sd.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/fstorage/nrf_fstorage_sd.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src/nrf_log_backend_serial.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src/nrf_log_backend_serial.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src/nrf_log_frontend.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/log/src/nrf_log_str_formatter.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj/nrf_memobj.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/memobj/nrf_memobj.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf/nrf_ringbuf.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/ringbuf/nrf_ringbuf.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist/nrf_sortlist.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/sortlist/nrf_sortlist.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror/nrf_strerror.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/strerror/nrf_strerror.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_error.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_error.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_error_handler_gcc.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_error_weak.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_error_weak.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_util_platform.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/libraries/util/app_util_platform.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common/nrf_sdh.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common/nrf_sdh.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common/nrf_sdh_ble.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/components/softdevice/common/nrf_sdh_ble.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf/nrf_fprintf.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf/nrf_fprintf.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf/nrf_fprintf_format.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK/external/fprintf/nrf_fprintf_format.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/app_timer2.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/ble_dfu_bonded.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/drv_rtc.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/nrf_log_backend_dmesg.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/nrf_log_backend_dmesg.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/nrf_pwr_mgmt.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/nrf_sdh_soc.c">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/nRF5SDK_mods/nrf_sdh_soc.h">
+			<Option target="codal-microbit-nrf5sdk"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model/MicroBit.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model/MicroBit.h">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model/MicroBitIO.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/model/MicroBitIO.h">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/FSCache.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitAccelerometer.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitAudio.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitCompass.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitCompassCalibrator.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitCompat.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitDevice.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitDisplay.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitFile.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitFileSystem.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitFlash.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitLog.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitMemoryMap.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitPowerManager.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitRadio.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitRadioDatagram.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitRadioEvent.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitThermometer.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/MicroBitUSBFlashManager.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/Mixer2.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/NRF52FlashManager.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/NRF52LedMatrix.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/PacketBuffer.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/SoundEmojiSynthesizer.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/SoundExpressions.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/SoundOutputPin.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/SoundSynthesizerEffects.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitAccelerometerService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitBLEChar.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitBLEManager.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitBLEService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitBLEServices.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitBLETypes.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitButtonService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitEddystone.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitEventService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitIOPinService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitLEDService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitMagnetometerService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitPartialFlashingService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitTemperatureService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/bluetooth/MicroBitUARTService.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/compat/MbedMemberFunctionCallback.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/compat/MicroBitButton.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/compat/MicroBitI2C.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/source/compat/MicroBitSerial.cpp">
+			<Option target="codal-microbit-v2"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/asm/CortexContextSwitch.s">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk/gcc_startup_nrf52833.S">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk/system_nrf52833.c">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk/system_nrf52833.h">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52ADC.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52I2C.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52PDM.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52PWM.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52Pin.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52Radio.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52RadioDatagram.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52RadioEvent.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52SPI.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52Serial.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52TouchSensor.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52USB.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRFLowLevelTimer.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/WS2812B.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/ZSingleWireSerial.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/codal_target_hal_base.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/neopixel.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/peripheral_alloc.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/main.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/AccelerometerTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/AudioTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/BLETest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/BlinkyTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/ButtonTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/CapTouchTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/DeepSleepTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/DisplayTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/GPIOTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/LightLevelTestRaw.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/MicrophoneTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/NoiseProfiler.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/NoiseProfiler.h">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/OOB.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/PowerManagementTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/RadioTestRx.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/SerialNumber.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/SerialStreamer.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/SerialStreamer.h">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/SpeakerTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/TemperatureTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/source/samples/USBFlashTest.cpp">
+			<Option target="MICROBIT"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/JSONParser.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/colours.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/util.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/bin-generator.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/compiler-flags.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/hex-generator.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/toolchain.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/buildtools/codal.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\buildtools\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/build/codal_extra_definitions_new.h">
+			<Option virtualFolder="CMake Files\build\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-microbit-v2\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-core\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-nrf52\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-microbit-nrf5sdk\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

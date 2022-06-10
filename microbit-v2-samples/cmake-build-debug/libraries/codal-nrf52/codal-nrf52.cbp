@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="codal-nrf52"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\utils\cmake\;CMake Files\utils\cmake\toolchains\;CMake Files\utils\cmake\toolchains\ARM_GCC\;CMake Files\utils\cmake\buildtools\;CMake Files\build\;CMake Files\libraries\;CMake Files\libraries\codal-microbit-v2\;CMake Files\libraries\codal-core\;CMake Files\libraries\codal-nrf52\;CMake Files\libraries\codal-microbit-nrf5sdk\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-nrf52">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-nrf52.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 codal-nrf52"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codal-nrf52/fast">
+				<Option output="/mnt/d/University/421/microbit-v2-samples/build/libcodal-nrf52.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/inc/cmsis"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/templates/nRF52833"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/include"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/drivers/src"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/core"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/driver-models"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/drivers"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/streams"/>
+					<Add directory="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/./inc/types"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 codal-nrf52/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/d/University/421/microbit-v2-samples/cmake-build-debug/libraries/codal-nrf52/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/asm/CortexContextSwitch.s">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk/gcc_startup_nrf52833.S">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk/system_nrf52833.c">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/nrfx/mdk/system_nrf52833.h">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52ADC.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52I2C.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52PDM.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52PWM.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52Pin.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52Radio.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52RadioDatagram.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52RadioEvent.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52SPI.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52Serial.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52TouchSensor.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRF52USB.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/NRFLowLevelTimer.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/WS2812B.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/ZSingleWireSerial.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/codal_target_hal_base.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/neopixel.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/source/peripheral_alloc.cpp">
+			<Option target="codal-nrf52"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/JSONParser.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/colours.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/util.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/bin-generator.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/compiler-flags.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/hex-generator.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/toolchains/ARM_GCC/toolchain.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\toolchains\ARM_GCC\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/utils/cmake/buildtools/codal.cmake">
+			<Option virtualFolder="CMake Files\utils\cmake\buildtools\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/build/codal_extra_definitions_new.h">
+			<Option virtualFolder="CMake Files\build\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-v2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-microbit-v2\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-core\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-nrf52/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-nrf52\"/>
+		</Unit>
+		<Unit filename="/mnt/d/University/421/microbit-v2-samples/libraries/codal-microbit-nrf5sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\codal-microbit-nrf5sdk\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
